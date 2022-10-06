@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/lorasimulator -n .:../src $*
+# for shared lib, use: opp_run -l ../src/lorasimulator -n .:../src $*
